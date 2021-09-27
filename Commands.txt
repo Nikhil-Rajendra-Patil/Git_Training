@@ -8,9 +8,13 @@ with confidential information such as passwords, or files that just clutter the 
 git add filename
 This adds file to staging area from working area.
 
+Hello
+
 git add -A 
 git add . 
 Adds all the files from current directory to staging area.
+
+Hello 
 
 git commit -m "Initial commit"
 This creates a new commit with the given message. A commit is like a save or snapshot of your entire project. You
