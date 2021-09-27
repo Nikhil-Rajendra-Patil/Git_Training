@@ -1,7 +1,7 @@
-# This Function Adds Two Numbers
+# This Function Adds Two Numbers in Python
 
-a = 7
-b = 4
+a = int(input())
+b = int(input())
 sum = a + b
 print(f"{a} + {b} = {sum}")
 
