@@ -1,0 +1,16 @@
+First Git File
+
+git config --global user.name
+git config --global user.email
+
+git init
+To create a new repo
+
+git status
+To check status of Working Area and Staging area.
+
+Areas in Git
+1. Working Area (Untracked, Modified)
+2. Staging Area
+3. Local repo
+4. Remote repo
