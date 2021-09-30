@@ -34,10 +34,3 @@ This matches files with recent commit.
 
 git checkout -f 
 This matches all files with recent commit.
-
-git log
-This shows us commits done on currrent repo
-
-git log -p -numberOfCommits
-This shows n recent commits.
-
