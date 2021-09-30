@@ -1,0 +1,43 @@
+#First Git File
+
+git config --global user.name "Nikhil Patil"
+git config --global user.email "" 
+
+cd  
+
+git init
+To create a new repo
+ touch index.html
+ 
+
+git status
+To check status of Working Area and Staging area.
+
+Areas in Git
+1. Working Area (Untracked, Modified)
+2. Staging Area
+3. Local repo
+4. Remote repo
+
+git add
+git add -A (For Adding all files in Staging area)
+To add files to staging area
+
+git commit
+To commit changes or to turn on git change tracking for file.
+
+touch filename
+For Creating a blank file.
+
+git checkout filename
+This matches files with recent commit.
+
+git checkout -f 
+This matches all files with recent commit.
+
+git log
+This shows us commits done on currrent repo
+
+git log -p -numberOfCommits
+This shows n recent commits.
+

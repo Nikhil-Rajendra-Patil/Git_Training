@@ -1,0 +1,63 @@
+git init
+This creates a hidden folder, .git, which contains the plumbing needed for Git to work.
+
+git status
+Review the resulting list of files; you can tell Git which of the files to place into version control (avoid adding files
+with confidential information such as passwords, or files that just clutter the repo)
+
+git add filename
+This adds file to staging area from working area.
+
+Hello
+
+git add -A 
+git add . 
+Adds all the files from current directory to staging area.
+
+Hello 
+
+git commit -m "Initial commit"
+This creates a new commit with the given message. A commit is like a save or snapshot of your entire project. You
+can now push, or upload, it to a remote repository, and later you can jump back to it if necessary.
+If you omit the -m parameter, your default editor will open and you can edit and save the commit message there.
+
+git checkout filename
+This matches files with recent commit.
+
+git checkout -f 
+This matches all files with recent commit.
+
+git clone 
+This command is used to copy an existing Git repository from a server to the local machine.
+
+git config --global user.name "Your Name"
+git config --global user.email mail@example.com
+Global Identity Declaration
+
+git config user.name "Your Name"
+git config user.email mail@example.com
+Identity Declaration for Single repo
+
+git config --global --remove-section user.name
+git config --global --remove-section user.email
+Removing identity globally.
+
+Steps for SSH Key Generation:
+1.  ssh-keygen -t ed25519 -C nikhilpatil201999@gmail.com
+
+2.  eval "$(ssh-agent -s)"
+
+3.  Authenticate through login
+
+Git Remote
+git remote add REMOTE_Name Git_Repo_Link
+
+git remote 
+For Checking remotes available
+
+git remote -v 
+For Checking fetch and push links
+
+
+
+
